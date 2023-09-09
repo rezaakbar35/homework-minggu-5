@@ -1,0 +1,104 @@
+html{
+    height: 100%;
+}
+
+body {
+    background: radial-gradient(218.67% 181.44% at 10.18% 16.2%, #358F80 0%, #47126B 100%);
+    background-position : center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.25)
+}
+
+p{
+    font-size: 18px !important;
+}
+
+.form-control{
+    border-radius: 24px !important;
+}
+
+.btn{
+    border-radius: 25px;
+    background: linear-gradient(94deg, rgba(71, 18, 107, 0.75) 0.56%, rgba(53, 143, 128, 0.75) 100%);
+    border: 2px solid white !important;
+}
+
+img{
+    max-width: 125px !important;
+}
+
+.mt-n1 {
+    margin-top: -3em !important;
+  }
+
+#nav{
+    background-color: rgba(255, 255, 255, 0.25) !important;
+    border: 1px solid #FFF;
+}
+
+.mt-6 {
+    margin-top: 5em !important;
+  }
+
+.nav-table {
+    width: 10em;
+    margin-left: 3em;
+    border-radius: 0px 50px 0px 0px;
+}
+
+.nav-form {
+    width: 10em;
+    margin-right: 3em;
+    border-radius: 50px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 740px) {
+    .nav-table {
+        width: 6em;
+        margin-left: 3em;
+        border-radius: 0px 50px 0px 0px;
+    }
+    
+    .nav-form {
+        width: 6em;
+        margin-right: 3em;
+        border-radius: 50px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    .nav-table {
+        width: auto;
+        margin-left: 3em;
+        border-radius: 0px 50px 0px 0px;
+    }
+    
+    .nav-form {
+        width: auto;
+        margin-right: 3em;
+        border-radius: 50px 0px 0px 0px;
+    }
+}
+
+#nav:hover{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+table tr td, table tr th{
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.card{
+    max-height: 100%;
+}
+
+#table-area{
+    height: 400px !important;
+    overflow: scroll;
+}
